@@ -6,8 +6,9 @@ import { useState, useEffect } from 'react';
   calls for input validation, which are inefficient if triggered on every keystroke. 
   By using debouncing, we make requests only after typing has paused, enhancing 
   user experience by reducing unnecessary server load and network traffic. 
-  Debounce functionality is commonly available in utility libraries, 
-  providing advanced features and TypeScript support.
+  
+  Debounce functionality is commonly available in some many hooks libraries, 
+  catching more advanced use cases and providing also TypeScript support.
 
   In case like this is very useful as the validation is supposedly running 
   in a fetch call which is mocked but this is the idea of how it should be
