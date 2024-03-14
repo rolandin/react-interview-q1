@@ -107,7 +107,6 @@ const FormComponent = () => {
           Add
         </button>
       </div>
-
       
       {/* Table to display the records */}
         <div className="mt-4">
